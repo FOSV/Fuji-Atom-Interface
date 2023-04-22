@@ -1,12 +1,12 @@
 # Fuji-Atom-Interface
 
 
-#   PREMISE   #
+# PREMISE
 
 The author disclaims all liability for any damage to property and/or persons resulting from the use of the files in this folder.
 
 
-#   LICENSE   #
+# LICENSE   
 
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
@@ -14,25 +14,24 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 
-#    USAGE    #
+# DESCRIPTION & USAGE    
 
+This interface was inspired by this project: https://github.com/unreality/FujiHK
+
+This is a simple interface from 3-wire remote control of Fuji-Electric internal unit to a Atom-M5 (ESP32 based) device.
 
 I designed two versions of the circuit:
-
-	- "V1_Rev2.0" powers the Atom at 3.3V on the appropriate pin
-	
-	- "V2_Rev1.5" powers the Atom at 5V on the appropriate pin
+* **"V1_Rev2.0"** powers the Atom @3.3V on the appropriate pin
+* **"V2_Rev1.5"** powers the Atom @5V on the appropriate pin
 	
 Choose the one you prefer, there is no difference in the final operation.
 
-In the "FABRICATION" folder there two .zip archive of the Gerber files.
-(When the site prompts you to upload Gerber files, upload the .zip archive directly).
+### **I prefer to use **"V2_Rev1.5"** to complain the Atom-M5 specifications.**
 
-Speaking of JLCPCB, there are already part numbers related to the LCSC (component supplier for JLCPCB) catalog.
+In this repository there are two .zip archive of the Gerber files.
+When the site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
 
-https://jlcpcb.com/
-
-https://www.lcsc.com/
+# COMPONENTS AVAILABILITY 
 
 In case a component is not available, replace it with one of equal characteristics.
 ("Description" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”).
