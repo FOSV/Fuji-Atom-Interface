@@ -22,6 +22,8 @@ The new AtomS3 Lite version is available for purchase on the [Official Store](ht
 
 ## Files usage
 
+In this repository there are two .zip archives containing the Gerber files, when the JLCPCB site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
+
 I designed two versions of the circuit:
 * **"V1_Rev2.0"** powers the Atom @3.3V on the appropriate pin
 * **"V2_Rev1.5"** powers the Atom @5V on the appropriate pin
@@ -29,9 +31,6 @@ I designed two versions of the circuit:
 Choose the one you prefer, there is no difference in the final operation.
 
 ***I prefer to use **"V2_Rev1.5"** to complain the Atom Lite specifications.***
-
-In this repository there are two .zip archives containing the Gerber files. \
-When the JLCPCB site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
 
 ## Components availability
 
