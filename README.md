@@ -6,9 +6,9 @@
 
 The purpose of this project, thanks to [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning internal unit from HomeKit or Home Assistant.
 
-This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
-
 This is a simple interface between 3-wire remote control of Fuji-Electric internal unit and an Atom Lite (ESP32 based) device.
+
+This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
 
 ***You need to connect this interface in parallel with remote control.***
 
@@ -30,22 +30,23 @@ Choose the one you prefer, there is no difference in the final operation.
 
 ***I prefer to use **"V2_Rev1.5"** to complain the Atom Lite specifications.***
 
-In this repository there are two .zip archives containing the Gerber files.
+In this repository there are two .zip archives containing the Gerber files. \
 When the JLCPCB site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
 
 ## Components availability
 
-In case a component is not available, replace it with one of equal characteristics.
+In case a component is not available, replace it with one of equal characteristics. \
 ("Description" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”).
 
 ***Be careful, this replacement does not apply to the two ICs in the BOM (IC1 and U1)!!!***
 
 
-Components of equal characteristics found in the BOM can be found by entering the part number
+Components of equal characteristics found in the BOM can be found by entering the part number \
 ("Manufacturer Code" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”) on [Octopart](https://octopart.com/).
 
 As for the capacitors, do not get stuck on the choice of temperature coefficient on the BOM if you should not find it, but quietly 
-choose from these nine values: X5S X5R X5P X6S X6R X6P X7S X7R X7P. (The scale is: from the "worst" X5S, to the best X7P).
+choose from these nine values: X5S X5R X5P X6S X6R X6P X7S X7R X7P. \
+(The scale is: from the "worst" X5S, to the best X7P).
 
 ## Schematic
 
