@@ -14,9 +14,9 @@ This interface was inspired by this project: [Unreality's repo](https://github.c
 
 ## Platform
 
-The tested version can be purchased here on the [M5Stack Store on AliExpress](https://it.aliexpress.com/item/1005003299215808.html?gps-id=pcStoreLeaderboard&scm=1007.22922.271278.0&scm_id=1007.22922.271278.0&scm-url=1007.22922.271278.0&pvid=224e7336-f02f-437a-9968-e8bd99935065&_t=gps-id%3ApcStoreLeaderboard%2Cscm-url%3A1007.22922.271278.0%2Cpvid%3A224e7336-f02f-437a-9968-e8bd99935065%2Ctpp_buckets%3A668%232846%238112%231997&pdp_npi=3%40dis%21EUR%218.79%218.79%21%21%21%21%21%40211b801816821634937488779e9747%2112000025086683331%21rec%21IT%21&spm=a2g0o.store_pc_home.smartLeaderboard_6000640622359.1005003299215808&gatewayAdapt=glo2ita).
+The tested version, so called [Atom Lite](https://shop.m5stack.com/collections/m5-controllers/products/atom-lite-esp32-development-kit), can be purchased on the offical site.
 
-The new AtomS3 Lite version is available for purchase on the [Official Store](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit).
+There also is a new version, [AtomS3 Lite](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit), available for purchase on the official site.
 
 ***Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged and the pin-matching between the Atom Lite and the AtomS3 Lite is:***
 * ***G22 (Atom Lite) -> G5 (AtomS3 Lite)***
