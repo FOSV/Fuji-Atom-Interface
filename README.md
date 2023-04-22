@@ -19,7 +19,7 @@ The tested version can be purchased on AliExpress. [M5Stack Store on AliExpress]
 
 The new AtomS3 Lite version is available for purchase on the [Official Store](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit).
 
-**Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged.**
+***Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged.***
 
 # FILES USAGE
 
