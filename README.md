@@ -31,8 +31,8 @@ Choose the one you prefer, there is no difference in the final operation.
 
 ***I prefer to use **"V2_Rev1.5"** to complain the Atom Lite specifications.***
 
-In this repository there are two .zip archive of the Gerber files.
-When the site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
+In this repository there are two .zip archives containing the Gerber files.
+When the JLCPCB site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
 
 # COMPONENTS AVAILABILITY 
 
