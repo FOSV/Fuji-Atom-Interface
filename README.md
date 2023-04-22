@@ -12,6 +12,9 @@ This interface was inspired by this project: [Unreality's repo](https://github.c
 
 ***You need to connect this interface in parallel with remote control.***
 
+### Curiosity
+[This](https://community.home-assistant.io/t/fujitsu-ac-heat-pump-integration-via-esphome-esp32/407610/80?u=fosv) is the first prototype I shared on [Home Assistant Community](https://community.home-assistant.io/).
+
 ## Platform
 
 The tested version, so called [Atom Lite](https://shop.m5stack.com/collections/m5-controllers/products/atom-lite-esp32-development-kit), can be purchased on the offical site.
