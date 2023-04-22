@@ -6,7 +6,7 @@
 
 This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
 
-This is a simple interface from 3-wire remote control of Fuji-Electric internal unit to a Atom Lite (ESP32 based) device.
+This is a simple interface between 3-wire remote control of Fuji-Electric internal unit and an Atom Lite (ESP32 based) device.
 
 ***You need to connect this interface in parallel with remote control.***
 
