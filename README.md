@@ -4,7 +4,7 @@
 
 ## Introduction 
 
-The purpose of this project, thanks to HomeSpan or ESPHome, is to be able to control your Fuji-Electric Air Conditioning internal unit from HomeKit or Home Assistant.
+The purpose of this project, thanks to [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning internal unit from HomeKit or Home Assistant.
 
 This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
 
