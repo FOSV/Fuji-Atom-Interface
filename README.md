@@ -3,11 +3,11 @@
 
 # PREMISE
 
-The author disclaims all liability for any damage to property and/or persons resulting from the use of the files in this folder.
+The author disclaims all liability for any damage to property and/or persons resulting from the use of the files in this repository.
 
 # INTRODUCTION  
 
-This interface was inspired by this project: [Unreality Repository](https://github.com/unreality/FujiHK)
+This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK)
 
 This is a simple interface from 3-wire remote control of Fuji-Electric internal unit to a Atom Lite (ESP32 based) device.
 
