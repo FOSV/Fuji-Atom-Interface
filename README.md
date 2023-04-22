@@ -7,17 +7,17 @@ The author disclaims all liability for any damage to property and/or persons res
 
 # INTRODUCTION  
 
-This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK)
+This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
 
 This is a simple interface from 3-wire remote control of Fuji-Electric internal unit to a Atom Lite (ESP32 based) device.
 
-***You need to connect this interface in parallel with remote control***
+***You need to connect this interface in parallel with remote control.***
 
 # PLATFORM
 
-The tested version can be purchased on Aliexpress. [M5Stack Store on Aliexpress](https://it.aliexpress.com/item/1005003299215808.html?gps-id=pcStoreLeaderboard&scm=1007.22922.271278.0&scm_id=1007.22922.271278.0&scm-url=1007.22922.271278.0&pvid=224e7336-f02f-437a-9968-e8bd99935065&_t=gps-id%3ApcStoreLeaderboard%2Cscm-url%3A1007.22922.271278.0%2Cpvid%3A224e7336-f02f-437a-9968-e8bd99935065%2Ctpp_buckets%3A668%232846%238112%231997&pdp_npi=3%40dis%21EUR%218.79%218.79%21%21%21%21%21%40211b801816821634937488779e9747%2112000025086683331%21rec%21IT%21&spm=a2g0o.store_pc_home.smartLeaderboard_6000640622359.1005003299215808&gatewayAdapt=glo2ita)
+The tested version can be purchased on Aliexpress. [M5Stack Store on Aliexpress](https://it.aliexpress.com/item/1005003299215808.html?gps-id=pcStoreLeaderboard&scm=1007.22922.271278.0&scm_id=1007.22922.271278.0&scm-url=1007.22922.271278.0&pvid=224e7336-f02f-437a-9968-e8bd99935065&_t=gps-id%3ApcStoreLeaderboard%2Cscm-url%3A1007.22922.271278.0%2Cpvid%3A224e7336-f02f-437a-9968-e8bd99935065%2Ctpp_buckets%3A668%232846%238112%231997&pdp_npi=3%40dis%21EUR%218.79%218.79%21%21%21%21%21%40211b801816821634937488779e9747%2112000025086683331%21rec%21IT%21&spm=a2g0o.store_pc_home.smartLeaderboard_6000640622359.1005003299215808&gatewayAdapt=glo2ita).
 
-The new AtomS3 Lite version is available for purchase on the [Official Store](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit)
+The new AtomS3 Lite version is available for purchase on the [Official Store](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit).
 
 **Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged.**
 
@@ -29,7 +29,7 @@ I designed two versions of the circuit:
 	
 Choose the one you prefer, there is no difference in the final operation.
 
-**I prefer to use **"V2_Rev1.5"** to complain the Atom Lite specifications.**
+***I prefer to use **"V2_Rev1.5"** to complain the Atom Lite specifications.***
 
 In this repository there are two .zip archive of the Gerber files.
 When the site prompts you to upload Gerber files, directly upload the .zip archive you have chosen.
@@ -39,7 +39,7 @@ When the site prompts you to upload Gerber files, directly upload the .zip archi
 In case a component is not available, replace it with one of equal characteristics.
 ("Description" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”).
 
-**Be careful, this replacement does not apply to the two ICs in the BOM (IC1 and U1)!!!**
+***Be careful, this replacement does not apply to the two ICs in the BOM (IC1 and U1)!!!***
 
 
 Components of equal characteristics found in the BOM can be found by entering the part number
