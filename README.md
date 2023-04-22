@@ -15,7 +15,7 @@ This is a simple interface from 3-wire remote control of Fuji-Electric internal 
 
 # PLATFORM
 
-The tested version can be purchased on Aliexpress. [M5Stack Store on Aliexpress](https://it.aliexpress.com/item/1005003299215808.html?gps-id=pcStoreLeaderboard&scm=1007.22922.271278.0&scm_id=1007.22922.271278.0&scm-url=1007.22922.271278.0&pvid=224e7336-f02f-437a-9968-e8bd99935065&_t=gps-id%3ApcStoreLeaderboard%2Cscm-url%3A1007.22922.271278.0%2Cpvid%3A224e7336-f02f-437a-9968-e8bd99935065%2Ctpp_buckets%3A668%232846%238112%231997&pdp_npi=3%40dis%21EUR%218.79%218.79%21%21%21%21%21%40211b801816821634937488779e9747%2112000025086683331%21rec%21IT%21&spm=a2g0o.store_pc_home.smartLeaderboard_6000640622359.1005003299215808&gatewayAdapt=glo2ita).
+The tested version can be purchased on AliExpress. [M5Stack Store on AliExpress](https://it.aliexpress.com/item/1005003299215808.html?gps-id=pcStoreLeaderboard&scm=1007.22922.271278.0&scm_id=1007.22922.271278.0&scm-url=1007.22922.271278.0&pvid=224e7336-f02f-437a-9968-e8bd99935065&_t=gps-id%3ApcStoreLeaderboard%2Cscm-url%3A1007.22922.271278.0%2Cpvid%3A224e7336-f02f-437a-9968-e8bd99935065%2Ctpp_buckets%3A668%232846%238112%231997&pdp_npi=3%40dis%21EUR%218.79%218.79%21%21%21%21%21%40211b801816821634937488779e9747%2112000025086683331%21rec%21IT%21&spm=a2g0o.store_pc_home.smartLeaderboard_6000640622359.1005003299215808&gatewayAdapt=glo2ita).
 
 The new AtomS3 Lite version is available for purchase on the [Official Store](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit).
 
