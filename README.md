@@ -18,7 +18,9 @@ The tested version can be purchased here on the [M5Stack Store on AliExpress](ht
 
 The new AtomS3 Lite version is available for purchase on the [Official Store](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit).
 
-***Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged.***
+***Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged and the pin-matching between the Atom Lite and the AtomS3 Lite is:***
+* ***G22 (Atom Lite) -> G5 (AtomS3 Lite)***
+* ***G19 (Atom Lite) -> G6 (AtomS3 Lite)***
 
 ## Files usage
 
