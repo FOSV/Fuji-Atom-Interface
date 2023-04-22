@@ -42,7 +42,7 @@ Choose the one you prefer, there is no difference in the final operation.
 In case a component is not available, replace it with one of equal characteristics. \
 ("Description" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”)
 
-***Be careful, this replacement does not apply to the two ICs in the BOM (IC1 and U1)!!!***
+***Be careful, this replacement does not apply to the two ICs: IC1 and U1***
 
 
 Components of equal characteristics found in the BOM can be found by typing the part number on [Octopart](https://octopart.com/). \
