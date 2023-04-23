@@ -50,13 +50,13 @@ Choose the one you prefer, there is no difference in the final operation.
 ## Components availability
 
 In case a component is not available, replace it with one of equal characteristics. \
-("Description" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”)
+("Description" column of the BoM)
 
 ***Be careful, this replacement does not apply to the two ICs: IC1 and U1***
 
 
 Components of equal characteristics on the BOM can be found by typing the part number on [Octopart](https://octopart.com/). \
-("Manufacturer Code" column of the file “Fuji_HK_BOM [Updated on 22-04-2023 h12.10].xlsx”)
+("Manufacturer Code" column of the BoM)
 
 As for the capacitors, do not get stuck on the choice of temperature coefficient on the BOM if you should not find it, but quietly 
 choose from these nine values: X5S X5R X5P X6S X6R X6P X7S X7R X7P. \
