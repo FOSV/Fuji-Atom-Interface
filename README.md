@@ -63,7 +63,7 @@ Complete [Installation Manual of UTY-RNNUM Remote Control (3-Wires)](https://man
 In case a component is not available, replace it with one of equal characteristics.  
 ("Description" column of the BoM)
 
-**🚫 Be careful, the two ICs (IC1 and U1) cannot be replaced 🚫**
+**🚫 Be careful, the two ICs (IC1 and U1) cannot be replaced because of different pins layout 🚫**
 
 
 Components of equal characteristics on the BOM can be found by typing the part number on [Octopart](https://octopart.com/).  
