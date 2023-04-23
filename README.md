@@ -35,7 +35,7 @@ There is also a new version, [AtomS3 Lite](https://shop.m5stack.com/products/ato
 
 When the JLCPCB site prompts you to upload Gerber files, directly upload the "Fuji_HK_V*X*_Rev*X.X*_Gerbers.zip" archive you have chosen.
 
-There's two versions of the circuit:
+There are two versions of the circuit:
 * **V1_Rev2.0 ->** powers the Atom @3.3V on the appropriate pin
 * **V2_Rev1.5 ->** powers the Atom @5V on the appropriate pin
 	
