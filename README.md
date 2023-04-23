@@ -78,15 +78,15 @@ Complete [Installation Manual of UTY-RNNUM Remote Control (3-Wires)](https://man
 In case a component is not available, replace it with one of equal characteristics.  
 ("Description" column of the BoM)
 
-**🚫 Be careful, the two ICs (IC1 and U1) cannot be replaced because of different pins layout 🚫**
-
 
 Components of equal characteristics on the BOM can be found by typing the part number on [Octopart](https://octopart.com/).  
 ("Manufacturer Code" column of the BoM)
 
 As for the capacitors, do not get stuck on the choice of temperature coefficient on the BOM if you should not find it, but quietly 
 choose from these nine values: X5S X5R X5P X6S X6R X6P X7S X7R X7P.  
-(The scale is: from the "worst" X5S, to the best X7P).
+(The scale is: from the "worst" X5S, to the best X7P).  
+
+**🚫 Be careful, the two ICs (IC1 and U1) cannot be replaced because of different pins layout 🚫**
 
 ## Bill of Materials
 
