@@ -6,7 +6,7 @@
 
 The purpose of this project, via [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning internal unit from [HomeKit](https://en.wikipedia.org/wiki/HomeKit) or [Home Assistant](https://www.home-assistant.io/).
 
-This is a simple interface between 3-wire remote control of a Fuji-Electric internal unit and an Atom Lite (ESP32 based) device.
+This is a simple interface between 3-Wires remote control of a Fuji-Electric internal unit and an Atom Lite (ESP32 based) device.
 
 This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
 
@@ -44,12 +44,19 @@ Choose the one you prefer, there is no difference in the final operation.
 ***I prefer to use **V2_Rev1.5** to complain the Atom Lite specifications.***
 
 ## Connection
+**⚠ Please read the following instructions carefully, otherwise you may fry the PCB of the Indoor Unit ⚠**
 
-**⚠ You need to connect this interface in parallel with remote control. ⚠**
+**You need to connect the Fuji-Atom Interface in parallel with remote control.**
 
-* **Red -> 12V**
-* **White -> LIN**
-* **Black -> GND**
+<img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
+
+Atom Firmware **automatically sets itself as a Slave Unit**, just make sure that you already have at least one remote control and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.
+
+* **Red   (on Indoor Unit or RC Master Unit)  ->  12V (on Fuji-Atom Interface)**
+* **White (on Indoor Unit or RC Master Unit)  ->  LIN (on Fuji-Atom Interface)**
+* **Black (on Indoor Unit or RC Master Unit)  ->  GND (on Fuji-Atom Interface)**
+
+Complete [Installation Manual of UTY-RNNUM Remote Control (3-Wires)](https://manuals.plus/fujitsu/uty-rnnum-air-conditioner-remote-controller-manual#53_connection_of_remote_controller_cable)
 
 ## Components availability
 
