@@ -19,7 +19,7 @@ The tested version, so called [Atom Lite](https://shop.m5stack.com/collections/m
 
 There is also a new version, [AtomS3 Lite](https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit), available for purchase on the official site.
 
-***Pease note, I have not tested this interface on the new version, I only notice that the power pins are unchanged and the pin-matching between the Atom Lite and the AtomS3 Lite is:***
+***Pease note, I have not tested the Fuji-Atom Interface on the new AtomS3 Lite, I only notice that the power pins are unchanged and the pin-matching between the Atom Lite and the AtomS3 Lite is the following:***
 * ***G22 (Atom Lite) -> G5 (AtomS3 Lite)***
 * ***G19 (Atom Lite) -> G6 (AtomS3 Lite)***
 
