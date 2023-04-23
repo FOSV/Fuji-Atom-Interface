@@ -44,7 +44,7 @@ Choose the one you prefer, there is no difference in the final operation.
 ***I prefer to use **V2_Rev1.5** to complain the Atom Lite specifications.***
 
 ## Connection
-**⚠ Please read the following instructions carefully, otherwise you may fry the PCB of the your Indoor Unit ⚠**
+**⚠ Please read the following instructions carefully, otherwise you may fry the PCB on your Indoor Unit ⚠**
 
 **You need to connect the Fuji-Atom Interface in parallel with remote control.**
 
