@@ -44,7 +44,12 @@ Choose the one you prefer, there is no difference in the final operation.
 ***I prefer to use **V2_Rev1.5** to complain the Atom Lite specifications.***
 
 ## Connection
-**⚠ Please read the following instructions carefully, otherwise you may fry the PCB on your Indoor Unit ⚠**
+**⚠️ Please read the following instructions carefully, otherwise you may fry the PCB on your Indoor Unit ⚠**
+
+**🛑 PAY ATTENTION🛑**  
+
+**Before accessing any indoor part of the indoor unit or remote control, make sure that you turn off the power to the indoor unit via the breaker in your electrical panel.**  
+**If there is no dedicated switch for the indoor unit in your electrical panel, I recommend you to turn off the main breaker.**
 
 **You need to connect the Fuji-Atom Interface in parallel with remote control.**
 
