@@ -62,7 +62,7 @@ Also, make sure that you already have at least one Remote Control and that its *
 
 If you decide to use the Remote Control as the Slave Unit and the Atom as the Master Unit, you have to set **DIP-Switch 1-No.2** of your Remote Control to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Control).
 
-If you strangely do not have a Remote Control, you only need to set the Atom via firmware for it to be the Master Unit.
+If you strangely do not have a Remote Control, you only need to set the Atom via firmware to be the Master Unit.
 
 * **Red   (on Indoor Unit or RC Master Unit)  ->  12V (on Fuji-Atom Interface)**
 * **White (on Indoor Unit or RC Master Unit)  ->  LIN (on Fuji-Atom Interface)**
