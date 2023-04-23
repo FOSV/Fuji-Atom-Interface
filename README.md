@@ -6,9 +6,9 @@
 
 The purpose of this project, via [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning internal unit from [HomeKit](https://en.wikipedia.org/wiki/HomeKit) or [Home Assistant](https://www.home-assistant.io/).
 
-This is a simple interface between 3-Wires remote control of a Fuji-Electric internal unit and an Atom Lite (ESP32 based) device.
+This is simply an interface between a Fuji-Electric internal unit (with 3-Wires remote control) and an Atom Lite (ESP32 based) device.
 
-This interface was inspired by this project: [Unreality's repo](https://github.com/unreality/FujiHK).
+This interface was inspired by the project in the [Unreality's repo](https://github.com/unreality/FujiHK).
 
 ### Curiosity
 [This](https://community.home-assistant.io/t/fujitsu-ac-heat-pump-integration-via-esphome-esp32/407610/80?u=fosv) is the first prototype I shared on [Home Assistant Community](https://community.home-assistant.io/).
