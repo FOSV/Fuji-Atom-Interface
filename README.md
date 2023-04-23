@@ -4,9 +4,9 @@
 
 ## Introduction 
 
-The purpose of this project, via [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning internal unit from [HomeKit](https://en.wikipedia.org/wiki/HomeKit) or [Home Assistant](https://www.home-assistant.io/).
+The purpose of this project, via [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning Indoor Unit from [HomeKit](https://en.wikipedia.org/wiki/HomeKit) or [Home Assistant](https://www.home-assistant.io/).
 
-This is simply an interface between a Fuji-Electric internal unit (with 3-Wires remote control) and an Atom Lite (ESP32 based) device.
+This is simply an interface between a Fuji-Electric Indoor Unit (with 3-Wires remote control) and an Atom Lite (ESP32 based) device.
 
 This interface was inspired by the project in the [Unreality's repo](https://github.com/unreality/FujiHK).
 
@@ -44,14 +44,13 @@ Choose the one you prefer, there is no difference in the final operation.
 ***I prefer to use **V2_Rev1.5** to complain the Atom Lite specifications.***
 
 ## Connection
-**⚠️ Please read the following instructions carefully, otherwise you may fry the PCB on your Indoor Unit ⚠**
 
-**🛑 PAY ATTENTION🛑**  
+### ⚠️ Please read the following instructions carefully, otherwise you may fry the PCB on your Indoor Unit ⚠
 
-**Before accessing any internal part of the indoor unit or remote control, make sure that you turn off the power to the Indoor Unit via the breaker in your electrical panel.**  
-**If there is no dedicated switch for the Indoor Unit in your electrical panel, I recommend you to turn off the main breaker.**
+### Before accessing any internal part of the Indoor Unit or Remote Control, make sure that you turn off the power to the Indoor Unit via the breaker in your electrical panel.
+### If there is no dedicated switch for the Indoor Unit in your electrical panel, I recommend you to turn off the main breaker.
 
-**You need to connect the Fuji-Atom Interface in parallel with remote control.**
+**💡 You need to connect the Fuji-Atom Interface in parallel with remote control 💡**
 
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
