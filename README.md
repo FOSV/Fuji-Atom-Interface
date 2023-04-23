@@ -48,17 +48,21 @@ Choose the one you prefer, there is no difference in the final operation.
 
 **🛑 PAY ATTENTION🛑**  
 
-**Before accessing any internal part of the indoor unit or remote control, make sure that you turn off the power to the indoor unit via the breaker in your electrical panel.**  
-**If there is no dedicated switch for the indoor unit in your electrical panel, I recommend you to turn off the main breaker.**
+**Before accessing any internal part of the indoor unit or remote control, make sure that you turn off the power to the Indoor Unit via the breaker in your electrical panel.**  
+**If there is no dedicated switch for the Indoor Unit in your electrical panel, I recommend you to turn off the main breaker.**
 
 **You need to connect the Fuji-Atom Interface in parallel with remote control.**
 
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
-### Master/Slave mode
-Make sure the Atom is **set via firmware** to be a **Slave Unit**.  
-If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**.  
-Also, make sure that you already have at least one remote control and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.
+### Master/Slave configuration
+The suggested configuration is that the Remote Control is the Master Unit and the Atom is the Slave Unit.  
+To do so, make sure the Atom is **set via firmware** to be a **Slave Unit**. (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**.)  
+Also, make sure that you already have at least one remote control and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.  
+
+If you decide to use the Remote Control as the Slave Unit and the Atom as the Master Unit, you have to set **DIP-Switch 1-No.2** of your Remote Control to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Control).
+
+If you strangely do not have a Remote Control, you only need to set the Atom via firmware for it to be the Master Unit.
 
 * **Red   (on Indoor Unit or RC Master Unit)  ->  12V (on Fuji-Atom Interface)**
 * **White (on Indoor Unit or RC Master Unit)  ->  LIN (on Fuji-Atom Interface)**
