@@ -45,14 +45,18 @@ Choose the one you prefer, there is no difference in the final operation.
 
 ## Connection
 
-***You need to connect this interface in parallel with remote control.***
+**⚠ You need to connect this interface in parallel with remote control. ⚠**
+
+* **Red -> 12V**
+* **White -> LIN**
+* **Black -> GND**
 
 ## Components availability
 
 In case a component is not available, replace it with one of equal characteristics.  
 ("Description" column of the BoM)
 
-***Be careful, the two ICs (IC1 and U1) cannot be replaced.***
+**🚫 Be careful, the two ICs (IC1 and U1) cannot be replaced 🚫**
 
 
 Components of equal characteristics on the BOM can be found by typing the part number on [Octopart](https://octopart.com/).  
