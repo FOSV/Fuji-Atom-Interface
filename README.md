@@ -52,7 +52,7 @@ Choose the one you prefer, there is no difference in the final operation.
 In case a component is not available, replace it with one of equal characteristics. \
 ("Description" column of the BoM)
 
-***Be careful, this replacement does not apply to the two ICs: IC1 and U1***
+***Be careful, the two ICs (IC1 and U1) cannot be replaced.***
 
 
 Components of equal characteristics on the BOM can be found by typing the part number on [Octopart](https://octopart.com/). \
