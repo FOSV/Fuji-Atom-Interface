@@ -67,9 +67,9 @@ If you strangely do not have a Remote Control, you only need to set the Atom via
 
 ### Wiring
 
-* **Red   (on Indoor Unit or RC Master Unit)  ->  12V (on Fuji-Atom Interface)**
-* **White (on Indoor Unit or RC Master Unit)  ->  LIN (on Fuji-Atom Interface)**
-* **Black (on Indoor Unit or RC Master Unit)  ->  GND (on Fuji-Atom Interface)**
+* **Red   (on Indoor Unit or Remote Control)  ->  12V (on Fuji-Atom Interface)**
+* **White (on Indoor Unit or Remote Control)  ->  LIN (on Fuji-Atom Interface)**
+* **Black (on Indoor Unit or Remote Control)  ->  GND (on Fuji-Atom Interface)**
 
 Complete [Installation Manual of UTY-RNNUM Remote Control (3-Wires)](https://manuals.plus/fujitsu/uty-rnnum-air-conditioner-remote-controller-manual#53_connection_of_remote_controller_cable)
 
