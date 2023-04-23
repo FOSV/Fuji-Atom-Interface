@@ -50,7 +50,9 @@ Choose the one you prefer, there is no difference in the final operation.
 
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
-Make sure the Atom is **set via firmware** to be a **Slave Unit** (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**)  
+### Master/Slave mode
+Make sure the Atom is **set via firmware** to be a **Slave Unit**.  
+If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**.  
 Also, make sure that you already have at least one remote control and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.
 
 * **Red   (on Indoor Unit or RC Master Unit)  ->  12V (on Fuji-Atom Interface)**
