@@ -58,17 +58,39 @@ Choose the one you prefer, there is no difference in the final operation.
 If there are two or more Remote Commands, only one must be the Master Unit, all others must be configured as Slave Units.  
 You can connect the Atom in parallel to any Remote Control or equally directly to the terminal block of the Internal Unit where you will already find the 3-Wires Harness of the Remote Controls already installed.  
 
+
 There are three possible configurations:
 * **Remote Control = Master Unit | & | Atom = Slave Unit**  
 This is the suggested configuration. To do so, make sure the Atom is **set via firmware** to be a **Slave Unit**  
 (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**).  
 Also, make sure that you already have at least one Remote Control and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.  
 
+```mermaid
+graph TD;
+    A(Indoor Unit)---B("Remote Control 1 (Master)");
+    A---C("Atom (Slave)");
+    A---D("Remote Control 2 (Slave)");
+    A---E("Remote Control N (Slave)");
+```
+
 * **Remote Control = Slave Unit | & | Atom = Master Unit**  
 In this configuration you have to set **DIP-Switch 1-No.2** of your Remote Control to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Control).
 
+```mermaid
+graph TD;
+    A(Indoor Unit)---B("Atom (Master)");
+    A---C("Remote Control 1 (Slave)");
+    A---D("Remote Control 2 (Slave)");
+    A---E("Remote Control N (Slave)");
+```
+
 * **Remote Control = Not present | & | Atom = Master Unit**  
 If you strangely do not have a Remote Control, you only need to set the Atom via firmware to be the Master Unit.
+
+```mermaid
+graph TD;
+    A(Indoor Unit)---B("Atom (Master)");
+```
 
 ### Wiring
 
