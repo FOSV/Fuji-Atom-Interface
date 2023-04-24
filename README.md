@@ -57,7 +57,7 @@ Choose the one you prefer, there is no difference in the final operation.
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
 ### Master/Slave configuration
-If there are two or more Remote Commands, only one must be the Master Unit, all others must be configured as Slave Units.
+If there are two or more Remote Controllers, only one must be the Master Unit, all others must be configured as Slave Units.
 
 There are three possible configurations:
 * **Remote Controller = Master Unit | & | Atom = Slave Unit**  
