@@ -56,7 +56,7 @@ Choose the one you prefer, there is no difference in the final operation.
 
 ### Master/Slave configuration
 If there are two or more Remote Commands, only one must be the Master Unit, all others must be configured as Slave Units.  
-You can connect the Atom in parallel to the **terminal block of any Remote Control** or equally directly to the **terminal block of the Internal Unit** where you will already find the 3-Wires Harness of the Remote Controls already installed.  
+You can connect the Atom in parallel to the ***terminal block of any Remote Control*** or equally directly to the ***terminal block of the Internal Unit*** where you will already find the 3-Wires Harness of the Remote Controls already installed.  
 
 
 There are three possible configurations:
