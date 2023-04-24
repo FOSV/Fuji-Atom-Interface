@@ -6,7 +6,7 @@
 
 The purpose of this project, via [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning Indoor Unit from [HomeKit](https://en.wikipedia.org/wiki/HomeKit) or [Home Assistant](https://www.home-assistant.io/).
 
-This is simply an interface between a Fuji-Electric Indoor Unit (with 3-Wires remote control) and an Atom Lite (ESP32 based) device.
+This is simply an interface between a Fuji-Electric Indoor Unit (with 3-Wires Remote Controller) and an Atom Lite (ESP32 based) device.
 
 This interface was inspired by the project in the [Unreality's repo](https://github.com/unreality/FujiHK).
 
@@ -47,12 +47,12 @@ Choose the one you prefer, there is no difference in the final operation.
 
 ### ⚠️ Please read the following instructions carefully, otherwise you may fry the PCB on your Indoor Unit ⚠
 
-> Before accessing any internal part of the Indoor Unit or Remote Control, make sure that you turn off the power to the Indoor Unit via the breaker in your electrical panel.  
+> Before accessing any internal part of the Indoor Unit or Remote Controller, make sure that you turn off the power to the Indoor Unit via the breaker in your electrical panel.  
 > If there is no dedicated switch for the Indoor Unit in your electrical panel, is strongly recommended to turn off the main breaker.
 
-**💡 You need to connect the Fuji-Atom Interface in parallel with Remote Control 💡**
+**💡 You need to connect the Fuji-Atom Interface in parallel with Remote Controller 💡**
 
-> You can connect the Fuji-Atom Interface in parallel to the ***terminal block of any Remote Control*** or equally directly to the ***terminal block of the Indoor Unit*** where you will already find the 3-Wires Harness of the Remote Control(s) already installed.
+> You can connect the Fuji-Atom Interface in parallel to the ***terminal block of any Remote Controller*** or equally directly to the ***terminal block of the Indoor Unit*** where you will already find the 3-Wires Harness of the Remote Controller(s) already installed.
 
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
@@ -60,32 +60,32 @@ Choose the one you prefer, there is no difference in the final operation.
 If there are two or more Remote Commands, only one must be the Master Unit, all others must be configured as Slave Units.
 
 There are three possible configurations:
-* **Remote Control = Master Unit | & | Atom = Slave Unit**  
+* **Remote Controller = Master Unit | & | Atom = Slave Unit**  
 This is the suggested configuration. To do so, make sure the Atom is **set via firmware** to be a **Slave Unit**  
 (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**).  
-Also, make sure that you already have at least one Remote Control and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.  
+Also, make sure that you already have at least one Remote Controller and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.  
 
 ```mermaid
 graph TD;
-    A(Indoor Unit)---B("Remote Control 1 (Master)");
+    A(Indoor Unit)---B("Remote Controller 1 (Master)");
     A---C("Atom (Slave)");
-    A---D("Remote Control 2 (Slave)");
-    A---E("Remote Control N (Slave)");
+    A---D("Remote Controller 2 (Slave)");
+    A---E("Remote Controller N (Slave)");
 ```
 
-* **Remote Control = Slave Unit | & | Atom = Master Unit**  
-In this configuration you have to set **DIP-Switch 1-No.2** of your Remote Control to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Control).
+* **Remote Controller = Slave Unit | & | Atom = Master Unit**  
+In this configuration you have to set **DIP-Switch 1-No.2** of your Remote Controller to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Controller).
 
 ```mermaid
 graph TD;
     A(Indoor Unit)---B("Atom (Master)");
-    A---C("Remote Control 1 (Slave)");
-    A---D("Remote Control 2 (Slave)");
-    A---E("Remote Control N (Slave)");
+    A---C("Remote Controller 1 (Slave)");
+    A---D("Remote Controller 2 (Slave)");
+    A---E("Remote Controller N (Slave)");
 ```
 
-* **Remote Control = Not present | & | Atom = Master Unit**  
-If you strangely do not have a Remote Control, you only need to set the Atom via firmware to be the Master Unit.
+* **Remote Controller = Not present | & | Atom = Master Unit**  
+If you strangely do not have a Remote Controller, you only need to set the Atom via firmware to be the Master Unit.
 
 ```mermaid
 graph TD;
@@ -96,11 +96,11 @@ graph TD;
 
 Connect the wires in this way:
 
-* **Red   (on Indoor Unit or Remote Control)  ->  12V (on Fuji-Atom Interface)**
-* **White (on Indoor Unit or Remote Control)  ->  LIN (on Fuji-Atom Interface)**
-* **Black (on Indoor Unit or Remote Control)  ->  GND (on Fuji-Atom Interface)**
+* **Red   (on Indoor Unit or Remote Controller)  ->  12V (on Fuji-Atom Interface)**
+* **White (on Indoor Unit or Remote Controller)  ->  LIN (on Fuji-Atom Interface)**
+* **Black (on Indoor Unit or Remote Controller)  ->  GND (on Fuji-Atom Interface)**
 
-Complete [Installation Manual of UTY-RNNUM Remote Control (3-Wires)](https://manuals.plus/fujitsu/uty-rnnum-air-conditioner-remote-controller-manual#53_connection_of_remote_controller_cable)
+Complete [Installation Manual of UTY-RNNUM Remote Controller (3-Wires)](https://manuals.plus/fujitsu/uty-rnnum-air-conditioner-remote-controller-manual#53_connection_of_remote_controller_cable)
 
 ## Components availability
 
