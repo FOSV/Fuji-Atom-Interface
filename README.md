@@ -50,7 +50,7 @@ Choose the one you prefer, there is no difference in the final operation.
 > Before accessing any internal part of the Indoor Unit or Remote Control, make sure that you turn off the power to the Indoor Unit via the breaker in your electrical panel.  
 > If there is no dedicated switch for the Indoor Unit in your electrical panel, is strongly recommended to turn off the main breaker.
 
-**💡 You need to connect the Fuji-Atom Interface in parallel with remote control 💡**
+**💡 You need to connect the Fuji-Atom Interface in parallel with Remote Control 💡**
 
 > You can connect the Fuji-Atom Interface in parallel to the ***terminal block of any Remote Control*** or equally directly to the ***terminal block of the Internal Unit*** where you will already find the 3-Wires Harness of the Remote Controls already installed.
 
