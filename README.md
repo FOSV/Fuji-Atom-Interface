@@ -52,7 +52,7 @@ Choose the one you prefer, there is no difference in the final operation.
 
 **💡 You need to connect the Fuji-Atom Interface in parallel with Remote Control 💡**
 
-> You can connect the Fuji-Atom Interface in parallel to the ***terminal block of any Remote Control*** or equally directly to the ***terminal block of the Internal Unit*** where you will already find the 3-Wires Harness of the Remote Controls already installed.
+> You can connect the Fuji-Atom Interface in parallel to the ***terminal block of any Remote Control*** or equally directly to the ***terminal block of the Indoor Unit*** where you will already find the 3-Wires Harness of the Remote Controls already installed.
 
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
