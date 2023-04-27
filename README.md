@@ -60,8 +60,8 @@ Choose the one you prefer, there is no difference in the final operation.
 If there are two or more Remote Controllers, only one must be the Master Unit, all others must be configured as Slave Units.
 
 There are three possible configurations:
-* **Remote Controller = Master Unit | & | Atom = Slave Unit**  
-This is the suggested configuration. To do so, make sure the Atom is **set via firmware** to be a **Slave Unit**  
+* **Remote Controller = Master Unit | & | Atom = Slave Unit** (Suggested)  
+To do so, make sure the Atom is **set via firmware** to be a **Slave Unit**  
 (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**).  
 Also, make sure that you already have at least one Remote Controller and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.  
 
