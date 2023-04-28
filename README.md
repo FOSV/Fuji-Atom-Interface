@@ -57,30 +57,28 @@ Choose the one you prefer, there is no difference in the final operation.
 <img width="567" alt="Schermata 2023-04-23 alle 18 20 11" src="https://user-images.githubusercontent.com/80490825/233852186-4470e527-0e55-4823-94c5-cd5092e50f6d.png">
 
 ### Master/Slave configuration
-If there are two or more Remote Controllers, only one must be the Master Unit, all others must be configured as Slave Units.
+Fuji's indoor units can be controlled by a maximum of two Remote Controllers.  
+So, if you already have two Remote Controllers, you must disconnect one of them (preferably the Slave) in order to install the Fuji-Atom Interface.  
+Then, the Fuji-Atom Interface will replace one of the two Remote Controllers.
 
 There are three possible configurations:
 * **Remote Controller = Master Unit | & | Atom = Slave Unit** (Suggested)  
 To do so, make sure the Atom is **set via firmware** to be a **Slave Unit** (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**).  
-Also, make sure that you already have at least one Remote Controller and that its **DIP-Switch 1-No.2** is set to **OFF** so that it assumes the role of **Master Unit**.  
+Also, make sure that **DIP-Switch 1-No.2** of the existing Remote Controller is set to **OFF** so that it assumes the role of the **Master Unit**.
 
 ```mermaid
 graph TD;
     A(Indoor Unit)---B("Remote Controller 1 (Master)");
     A---C("Atom (Slave)");
-    A---D("Remote Controller 2 (Slave)");
-    A---E("Remote Controller N (Slave)");
 ```
 
 * **Remote Controller = Slave Unit | & | Atom = Master Unit**  
-In this configuration you have to set **DIP-Switch 1-No.2** of your Remote Controller to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Controller).
+In this configuration you have to set **DIP-Switch 1-No.2** of the exixting Remote Controller to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Controller).
 
 ```mermaid
 graph TD;
     A(Indoor Unit)---B("Atom (Master)");
     A---C("Remote Controller 1 (Slave)");
-    A---D("Remote Controller 2 (Slave)");
-    A---E("Remote Controller N (Slave)");
 ```
 
 * **Remote Controller = Not present | & | Atom = Master Unit**  
