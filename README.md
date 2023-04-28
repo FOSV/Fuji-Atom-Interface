@@ -62,7 +62,7 @@ So, if you already have two Remote Controllers, you must disconnect one of them 
 Then, the Fuji-Atom Interface will replace one of the two Remote Controllers.
 
 There are three possible configurations:
-* **Remote Controller = Master Unit | & | Atom = Slave Unit** (Suggested)  
+* **Remote Controller = Master Unit --- & --- Atom = Slave Unit** (Suggested)  
 To do so, make sure the Atom is **set via firmware** to be a **Slave Unit** (If you use the [Unreality's firmware](https://github.com/unreality/FujiHK#secondary-mode), it will **automatically set itself as a Slave Unit**).  
 Also, make sure that **DIP-Switch 1-No.2** of the existing Remote Controller is set to **OFF** so that it assumes the role of the **Master Unit**.
 
@@ -72,7 +72,7 @@ graph TD;
     A---C("Atom (Slave)");
 ```
 
-* **Remote Controller = Slave Unit | & | Atom = Master Unit**  
+* **Remote Controller = Slave Unit --- & --- Atom = Master Unit**  
 In this configuration you have to set **DIP-Switch 1-No.2** of the exixting Remote Controller to **ON** while you have to set the Atom via firmware to be the Master Unit (Not recommended because **a Slave Unit will not work in the absence of a Master Unit**, so if the Atom dies you will not be able to control the Indoor Unit via Remote Controller).
 
 ```mermaid
@@ -81,7 +81,7 @@ graph TD;
     A---C("Remote Controller 1 (Slave)");
 ```
 
-* **Remote Controller = Not present | & | Atom = Master Unit**  
+* **Remote Controller = Not present --- & --- Atom = Master Unit**  
 If you strangely do not have a Remote Controller, you only need to set the Atom via firmware to be the Master Unit.
 
 ```mermaid
