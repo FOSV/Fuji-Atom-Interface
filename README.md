@@ -6,7 +6,7 @@
 
 The purpose of this project, via [HomeSpan](https://github.com/HomeSpan/HomeSpan) or [ESPHome](https://github.com/esphome/esphome), is to be able to control your Fuji-Electric Air Conditioning Indoor Unit from [HomeKit](https://en.wikipedia.org/wiki/HomeKit) or [Home Assistant](https://www.home-assistant.io/).
 
-This is simply an interface between a Fuji-Electric Indoor Unit (with 3-Wires Remote Controller) and an Atom Lite (ESP32 based) device.
+This is an interface between a Fuji-Electric Indoor Unit (with 3-Wires Remote Controller) and an Atom Lite (ESP32 based) device.
 
 This interface was inspired by the project in the [Unreality's repo](https://github.com/unreality/FujiHK).
 
