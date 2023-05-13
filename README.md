@@ -118,8 +118,8 @@ choose from these nine values: X5S X5R X5P X6S X6R X6P X7S X7R X7P.
 Since the PCB is designed for **SMT** (Surface-Mount Technology), **you need** to ask the PCB manufacturer to provide you with the **solder paste stencil**, you can find it under "SMT-Stencil".
 
 Than you can easily follow this procedure:
-1) Apply solder paste to the PCB using the solder paste stencil (the principle is that of a stencil, precisely);
-2) Place the components with tweezers (pay attention to components orientation);
+1) Apply solder paste to the PCB using the solder paste stencil;
+2) Place the components with tweezers (pay attention to components orientation if specified);
 3) Heat the PCB around 150°-250°C (depends on the solder paste) with a hot air gun or a heating plate.
 
 This procedure is much easier and safer if done by heated plate instead of hot air gun.
