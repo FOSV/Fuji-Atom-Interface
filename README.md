@@ -119,7 +119,7 @@ Since the PCB is designed for **SMT** (Surface-Mount Technology), **you need** t
 
 Than you can easily follow this procedure:
 1) Apply solder paste to the PCB using the solder paste stencil;
-2) Place the components with tweezers (pay attention to components orientation if specified);
+2) Place the components with tweezers (pay attention to components orientation where specified);
 3) Heat the PCB around 150°-250°C (depends on the solder paste) with a hot air gun or a heating plate.
 
 This procedure is much easier and safer if done by heated plate instead of hot air gun.
