@@ -144,7 +144,7 @@ Here's a [cheap Heating Plate on AliExpress](https://it.aliexpress.com/item/1005
 | **CPF0805B42K2E1** | Resistor SMD 42.2K OHM 0.1% 1/10W 0805 | **R2** | Only for "V1_ Rev2.0" design (sets up the DC/DC converter to 3.3V) | Y |
 | **RP73PF2A24K9BTDF** | Resistor SMD 24.9K OHM 0.1% 1/4W 0805 | **R2** | Only for "V2_ Rev1.5" design (sets up the DC/DC converter to 5V) | Y |
 | CRT0805-BY-1002ELF | Resistor SMD 10K OHM 0.1% 1/8W 0805 | R3 | For both designs | Y |
-| TNPU0805500RAZEN00 | Resistor SMD 500 OHM 0.05% 1/8W 0805 | R4 | For both designs | Y |
+| PTN0805Y5000BST1 | Resistor SMD 500 OHM 0.1% 1/8W 0805 | R4 | For both designs | Y |
 | 150080VS75000 | LED GREEN CLEAR 0805 SMD | L1 | For both designs | Y |
 | TSM-105-01-F-SV | Connector HEADER SMD 5POS 2.54MM | J1 | For both designs | Y |
 | TSM-104-01-F-SV | Connector HEADER SMD 4POS 2.54MM | J2 | For both designs | Y |
