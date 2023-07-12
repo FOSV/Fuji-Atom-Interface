@@ -142,7 +142,7 @@ Here's a [cheap Heating Plate on AliExpress](https://it.aliexpress.com/item/1005
 | C2012X5R1C106M085AC | Capacitor 10UF 16V X5R 0805 | C3 | For both designs | Y |
 | RP73PF2A133KBTDF | Resistor SMD 133K OHM 0.1% 1/4W 0805 | R1 | For both designs | Y |
 | **CPF0805B42K2E1** | Resistor SMD 42.2K OHM 0.1% 1/10W 0805 | **R2** | Only for "V1_ Rev2.0" design (sets up the DC/DC converter to 3.3V) | Y |
-| **4-2176093-0** | Resistor SMD 24.9K OHM 0.1% 1/4W 0805 | **R2** | Only for "V2_ Rev1.5" design (sets up the DC/DC converter to 5V) | Y |
+| **RP73PF2A24K9BTDF** | Resistor SMD 24.9K OHM 0.1% 1/4W 0805 | **R2** | Only for "V2_ Rev1.5" design (sets up the DC/DC converter to 5V) | Y |
 | RG2012P-103-B-T5 | Resistor SMD 10K OHM 0.1% 1/8W 0805 | R3 | For both designs | Y |
 | TNPU0805500RAZEN00 | Resistor SMD 500 OHM 0.05% 1/8W 0805 | R4 | For both designs | Y |
 | 150080VS75000 | LED GREEN CLEAR 0805 SMD | L1 | For both designs | Y |
